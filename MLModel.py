@@ -8,7 +8,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
 import generic_app.models as models
-from generic_app.submodels.AutoMLPipeline.ModelSetting import ModelSetting
+from generic_app.submodels.VegaHackathon.ModelSetting import ModelSetting
 import pandas as pd
 import numpy as np
 

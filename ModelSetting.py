@@ -9,7 +9,7 @@ class ModelSetting(DependencyAnalysisMixin):
     train_file_y = models.FileField(max_length=300, upload_to="upload_data")
 
     def directly_dependent_entries(self):
-        from generic_app.submodels.AutoMLPipeline.MLModel import MLModel
+        from generic_app.submodels.VegaHackathon.MLModel import MLModel
         ml_models = MLModel.objects.filter(model_setting=self)
         if ml_models.count() == 0:
             MLModel.create()

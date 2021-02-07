@@ -3,8 +3,8 @@ import pathlib
 from django.test import TestCase
 from unittest import TestCase
 
-from generic_app.submodels.AutoMLPipeline.MLModel import MLModel
-from generic_app.submodels.AutoMLPipeline.ModelSetting import ModelSetting
+from generic_app.submodels.VegaHackathon.MLModel import MLModel
+from generic_app.submodels.VegaHackathon.ModelSetting import ModelSetting
 
 
 class ml_model_test(TestCase):
